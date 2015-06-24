@@ -1,0 +1,19 @@
+{
+  "name": "gulp-bower-link",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/edclements/gulp-bower-link.git"
+  },
+  "author": "Ed Clements <ed.clements@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edclements/gulp-bower-link/issues"
+  },
+  "homepage": "https://github.com/edclements/gulp-bower-link#readme"
+}
