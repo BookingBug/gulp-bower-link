@@ -32,6 +32,7 @@ module.exports = function (dir, name, localName, config) {
           stream.end();
         })
         .on('end', function() {
+	        opts.cwd = opts.cwd || process.cwd();
           var baseDir = path.join(opts.cwd, dir);
           var walker = walk.walk(baseDir);
           walker.on("errors", function(root, stats, next) {
